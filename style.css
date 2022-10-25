@@ -1,0 +1,423 @@
+
+* {
+
+}
+body{
+    margin:0;
+	padding-left:4%;
+	padding-right:4%;
+}
+
+
+#header1{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#cssmenu{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#headEnd{
+    display: flex;
+    flex-direction: row;
+    width: 20%;
+    justify-content: flex-end;
+    align-items: center;
+}
+#vacio1{
+    width: 50%;
+}
+.vacio{
+    width: 3%;
+}
+#USD{
+    display: flex;
+
+}
+#flecha{
+    display: flex;
+    }
+
+    #carrito{
+        display: flex;
+    }
+
+    /*Cuerpo*/
+#cuerpo{
+    display: flex;
+    flex-direction: column;
+
+}
+div#presentacion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align:center;
+    margin: 0;
+    padding: 0;
+}
+img.fondo{
+    max-width: 100%;
+	height: 100%;
+    position: relative;
+}
+div#granTexto{
+    position: absolute;
+    z-index: 1;
+}
+div#descuentosTemporada{
+    display: flex;
+    flex-direction: row;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    padding: 0;
+    margin-left: 4%;
+    margin-right: 4%;
+    justify-content: center;
+
+}
+
+img.descuentos{
+    max-width: 100%;
+    position: relative;
+}
+div#textoInt{
+    position: absolute;
+    z-index: 1;
+    margin-top:-11%;
+    margin-left: 2.5%;
+}
+div#ultimosProductos{
+    padding-top: 6%;
+    padding-bottom: 6%;
+    background-image:url(Recursos/bg-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+div.Titulo{
+    text-align:center ;
+
+    
+}
+div.ParrafoSec{
+    text-align:center ;
+    
+}
+div#grilla1{
+    margin-top:3%;
+    display: grid;
+    grid-template-columns: 22% 3% 22% 3% 22% 3% 22%;
+    grid-template-rows: 60% 40% 
+}
+img .uno{
+    grid-column: 1;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.vacio11{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+img .dos{
+    grid-column: 3;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.vacio12{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+img .tres{
+    grid-column: 5;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.vacio13{
+    grid-column: 6;
+    grid-row: 1;
+}
+img .cuatro{
+    grid-column: 7;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.textoGrilla1{
+    grid-row: 2;
+    grid-column: 1;
+    text-align: left;
+}
+div.vacio21{
+    grid-column: 2;
+    grid-row: 2;}
+
+div.textoGrilla2{
+    grid-row: 2;
+    grid-column: 3;
+    text-align: left;
+}
+div.vacio22{
+    grid-column: 4;
+    grid-row: 2;}
+
+div.textoGrilla3{
+    grid-row: 2;
+    grid-column: 5;
+    text-align: left;
+}
+div.vacio23{
+    grid-column: 6;
+    grid-row: 2;}
+
+div.textoGrilla4{
+    grid-row: 2;
+    grid-column: 7;
+    text-align: left;
+}
+
+div#grilla img{  object-fit: cover;
+    width:100%;
+    height:100%;}
+
+
+#grilla1 img{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+}
+#testimonio{
+    display:flex;
+    flex-direction: column;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    text-align: center;
+    justify-content:center;
+    align-items: center;
+}
+img.testi{
+    width: auto;
+    height: auto;
+    
+}
+div#nuevos{
+    background:rgb(243, 243, 243);
+    margin:0%;
+    padding:0%;
+}
+div#nuevos div.classic-container{
+    padding-top: 6%;
+    padding-bottom: 6%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+div#grilla2{
+    margin-top:3%;
+    display: grid;
+    grid-template-columns: 22% 3% 22% 3% 22% 3% 22%;
+    grid-template-rows: 40% 10% 40% 10%;
+    
+}
+img .g2f1i1{
+    grid-column: 1;
+    grid-row: 1;
+}
+div.g2f1v1{
+    grid-column: 2;
+    grid-row: 1;
+
+}
+img .g2f1i2{
+    grid-column: 3;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.g2f1v2{
+    grid-column: 4;
+    grid-row: 1;
+}
+
+img .g2f1i3{
+    grid-column: 5;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.g2f1v3{
+    grid-column: 6;
+    grid-row: 1;
+}
+img .g2f1i4{
+    grid-column: 7;
+    grid-row: 1;
+    max-height: 100%;
+}
+div.g2f2t1{
+    grid-row: 2;
+    grid-column: 1;
+    text-align: left;
+}
+div.g2f2v1{
+    grid-column: 2;
+    grid-row: 2;}
+
+div.g2f2t2{
+    grid-row: 2;
+    grid-column: 3;
+    text-align: left;
+}
+div.g2f2v2{
+    grid-column: 4;
+    grid-row: 2;}
+
+div.g2f2t3{
+    grid-row: 2;
+    grid-column: 5;
+    text-align: left;
+}
+div.g2f2v3{
+    grid-column: 6;
+    grid-row: 2;}
+
+div.g2f2t4{
+    grid-row: 2;
+    grid-column: 7;
+    text-align: left;
+}
+
+img .g2f3i1{
+    grid-column: 1;
+    grid-row: 3;
+    max-height: 100%;
+}
+div.g2f3v1{
+    grid-column: 2;
+    grid-row: 3;
+
+}
+img .g2f3i2{
+    grid-column: 3;
+    grid-row: 3;
+    max-height: 100%;
+}
+div.g2f3v2{
+    grid-column: 4;
+    grid-row: 3;
+}
+
+img .g2f3i3{
+    grid-column: 5;
+    grid-row: 3;
+    max-height: 100%;
+}
+div.g2f3v3{
+    grid-column: 6;
+    grid-row: 3;
+}
+img .g2f3i4{
+    grid-column: 7;
+    grid-row: 3;
+    max-height: 100%;
+}
+div.g2f4t1{
+    grid-row: 4;
+    grid-column: 1;
+    text-align: left;
+}
+div.vacio{
+    grid-column: 2;
+    grid-row: 4;}
+
+div.g2f4t2{
+    grid-row: 4;
+    grid-column: 3;
+    text-align: left;
+}
+div.vacio{
+    grid-column: 4;
+    grid-row: 4;}
+
+div.g2f4t3{
+    grid-row: 4;
+    grid-column: 5;
+    text-align: left;
+}
+div.vacio{
+    grid-column: 6;
+    grid-row: 4;}
+
+div.g2f4t4{
+    grid-row: 4;
+    grid-column: 7;
+    text-align: left;
+}
+div#grilla2 img{
+    object-fit: cover;
+    width:100%;
+    height:100%;}
+
+div#join{
+    background-image:url(Recursos/bg-2.jpg);
+    max-width: 100%;
+}
+div#join div.classic-container{
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+
+
+div#inscripcion{
+    margin-top: 3%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+div#introducir{
+    display: flex;
+    width: 40%;
+    text-align: left;
+    padding-left:1%;
+    border-width: 1px;
+    border-style: solid; border-width: 0.5px;
+    border-color: gray;
+}
+div#boton{
+    width: auto;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    border-style: solid; border-width: 1px;
+    border-color:black
+}
+#introducir p{
+    color: gray;
+}
+#boton p{
+    color: white;
+}
+
+div.classic-container{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+div#certificados div.classic-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
