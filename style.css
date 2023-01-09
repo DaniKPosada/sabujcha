@@ -809,4 +809,75 @@ th, td{
         padding-bottom: 1px;
         max-width: 150px!important;
     }
+    .news .Titulo{
+        width: 110px;
+    }
+    .fecha{
+        font-size: 10px;
+    }
+    .blog{
+        flex-direction: column;
+    }
+    .lat img{
+        width: 220px;
+        padding-top: 10px !important;
+    }
+    .lat{
+        width: 100%;
+    }
+    .tituloN{
+        width: 220px!important;
+        font-size:15px !important;   
+    }
+    .lat p{
+        font-size: 10px;
+        padding-bottom: 10px !important;
+    }
+    .read{
+        font-size: 8px;
+        
+    }
+    .c1{
+        margin: auto;
+    }
+    .c2,.c3,.c4,.c5{
+        display: none;
+    }
+    th{
+        font-size: 15px;
+    }
+    td{
+        font-size: 10px;
+    }
+    table{
+        padding-right: 0px;
+    padding-left: 16px; 
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0px;
+    }
+    tr{
+        display: block;
+    }
+    td,th{
+       
+        display: inline-block;
+    }
+    th{
+        order:-1;
+        float: left;
+        display: none;
+    }
+    .footer img{
+        padding-top: 15px;
+        width: 270px;
+    }
+    .footer{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        flex-direction: column;
+        font-size: 12px;
+        align-content: center;
+        align-items: center;
+    }
  }
